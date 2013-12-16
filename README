@@ -1,0 +1,13 @@
+pyxclip eases transporting Python and Excel or other spreadsheets applications.
+
+# Usage
+
+To import to Python, select a range and copy it, then load using
+
+    pyxclip.paste_from_spreadsheet()
+
+To import a range call
+
+    pyxclip.copy_to_spreadsheet(data)
+
+and paste in your spreadsheet program. Data can be any to dimensional iterable.
